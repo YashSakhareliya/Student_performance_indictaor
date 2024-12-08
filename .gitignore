@@ -36,12 +36,12 @@ Thumbs.db
 *.pyd
 *.pyc
 
-# Data files
-*.csv
-*.tsv
-*.pkl
-*.joblib
-*.h5
+# # Data files
+# *.csv
+# *.tsv
+# *.pkl
+# *.joblib
+# *.h5
 
 # Jupyter Notebook
 .ipynb_checkpoints/
