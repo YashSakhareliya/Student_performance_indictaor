@@ -1,0 +1,87 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+
+# Build and distribution files
+build/
+dist/
+*.egg-info/
+*.eggs/
+
+# Logs
+*.log
+*.out
+*.err
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python-specific caches
+*.pyo
+*.pyd
+*.pyc
+
+# Data files
+*.csv
+*.tsv
+*.pkl
+*.joblib
+*.h5
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+*.jupyterlab-workspaces/
+
+# Machine Learning/Deep Learning
+*.h5
+*.ckpt
+*.pb
+*.onnx
+*.tflite
+*.pt
+*.pth
+*.weights
+
+# TensorFlow specific
+*.tfevents
+
+# PyTorch Lightning logs
+lightning_logs/
+
+# Model outputs
+models/
+output/
+results/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Jupyter Lab settings
+.lab/
+workspace.json
+
+# Exclude dataset files (optional, adjust as necessary)
+data/
+datasets/
+
+# Ignore files created by specific tools
+*.ipynb_metadata/
+*.ipynb_bak/
