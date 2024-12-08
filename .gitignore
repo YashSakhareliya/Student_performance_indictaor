@@ -42,6 +42,7 @@ Thumbs.db
 # *.pkl
 # *.joblib
 # *.h5
+artifact/
 
 # Jupyter Notebook
 .ipynb_checkpoints/
