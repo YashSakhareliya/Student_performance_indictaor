@@ -2,11 +2,13 @@ from email import header
 from operator import index
 import os
 import sys
-from src.exception import CustomException
-from src.logger import logging
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
+
+from src.exception import CustomException
+from src.logger import logging
+from src.components.data_transfomation import DataTransformation
 
 @dataclass
 class DataInjestionconfig:
@@ -50,5 +52,8 @@ class DataInjestion:
 
 if __name__ == "__main__":
     injection_config = DataInjestion()
-    injection_config.initiate_data_injestion()
+    train_data_path,test_data_path=injection_config.initiate_data_injestion()
+    data_transfomation = DataTransformation()
+    data_transfomation.initiate_data_transformation(train_data_path,test_data_path)
+
         
